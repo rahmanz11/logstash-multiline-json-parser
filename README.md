@@ -1,0 +1,1 @@
+./logstash-7.17.5/bin/logstash -f niryehoshua.conf --log.level trace
