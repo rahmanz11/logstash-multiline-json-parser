@@ -1,2 +1,5 @@
 root@188.166.158.191
 kawami.antivirusbypass.com
+
+elastic.username = elastic
+elastic.password = 3bom9dESZhKucwoE0Iin
