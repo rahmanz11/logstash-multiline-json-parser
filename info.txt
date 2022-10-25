@@ -3,3 +3,5 @@ kawami.antivirusbypass.com
 
 elastic.username = elastic
 elastic.password = 3bom9dESZhKucwoE0Iin
+
+inotifywait -e close /root/z/kawami.conf && sleep 60 && rm /root/z/kawami.conf
