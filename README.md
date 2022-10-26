@@ -40,3 +40,8 @@ W: Target Packages (main/binary-all/Packages) is configured multiple times in /e
 W: Target Translations (main/i18n/Translation-en) is configured multiple times in /etc/apt/sources.list.d/elastic-7.x.list:1 and /etc/apt/sources.list.d/elastic-7.x.list:2
 W: Target CNF (main/cnf/Commands-amd64) is configured multiple times in /etc/apt/sources.list.d/elastic-7.x.list:1 and /etc/apt/sources.list.d/elastic-7.x.list:2
 W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/sources.list.d/elastic-7.x.list:1 and /etc/apt/sources.list.d/elastic-7.x.list:2
+
+
+sudo apt-get update
+
+sudo apt-get install python3-certbot-nginx
