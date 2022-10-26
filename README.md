@@ -57,5 +57,32 @@ Enter email address (used for urgent renewal and security notices)
  (Enter 'c' to cancel): c
 An e-mail address or --register-unsafely-without-email must be provided.
 Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
-root@app:/etc/nginx/sites-available#
+
+root@app:/etc/nginx/sites-available# sudo certbot --nginx certonly --register-unsafely-without-email
+Saving debug log to /var/log/letsencrypt/letsencrypt.log
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Please read the Terms of Service at
+https://letsencrypt.org/documents/LE-SA-v1.3-September-21-2022.pdf. You must
+agree in order to register with the ACME server. Do you agree?
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(Y)es/(N)o: Y
+Account registered.
+Please enter the domain name(s) you would like on your certificate (comma and/or
+space separated) (Enter 'c' to cancel): kawami.antivirusbypass.com
+Requesting a certificate for kawami.antivirusbypass.com
+
+Successfully received certificate.
+Certificate is saved at: /etc/letsencrypt/live/kawami.antivirusbypass.com/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/kawami.antivirusbypass.com/privkey.pem
+This certificate expires on 2023-01-24.
+These files will be updated when the certificate renews.
+Certbot has set up a scheduled task to automatically renew this certificate in the background.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+If you like Certbot, please consider supporting our work by:
+ * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+ * Donating to EFF:                    https://eff.org/donate-le
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
 
