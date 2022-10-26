@@ -45,3 +45,17 @@ W: Target CNF (main/cnf/Commands-all) is configured multiple times in /etc/apt/s
 sudo apt-get update
 
 sudo apt-get install python3-certbot-nginx
+
+sudo certbot --nginx certonly
+c
+If you really want to skip this, you can run the client with
+--register-unsafely-without-email but you will then be unable to receive notice
+about impending expiration or revocation of your certificates or problems with
+your Certbot installation that will lead to failure to renew.
+
+Enter email address (used for urgent renewal and security notices)
+ (Enter 'c' to cancel): c
+An e-mail address or --register-unsafely-without-email must be provided.
+Ask for help or search for solutions at https://community.letsencrypt.org. See the logfile /var/log/letsencrypt/letsencrypt.log or re-run Certbot with -v for more details.
+root@app:/etc/nginx/sites-available#
+
